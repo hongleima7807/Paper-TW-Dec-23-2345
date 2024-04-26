@@ -1,0 +1,9 @@
+%sigm = 0.5;
+%s2 = sigm^2;
+Pi = pi;
+%hbar = 0.8;
+%hbar = 1;
+relativeSmall = 1E-4;
+hlSmall = 1E-8;
+verySmall = 1E-16;
+superSmall = 1E-64;
