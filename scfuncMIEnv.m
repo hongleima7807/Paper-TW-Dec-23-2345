@@ -19,19 +19,14 @@ conductivity = 0.01;
 
 
 R0 = 0.0166;
-%R0 = R00 * (1 + alpha_cu * (T - T0));
+%R0 = R00 * (1 + alpha_cu * (T - T0)); %T=T0=298
 
 % %sc circuit
-N0 = 15;  % the  windings of the coil
-acoil = 0.6;% the radius of  coil ×¢Òâ ÊÇ°ë¾¶
-% N0 = 5;  % the  windings of the coil
-% acoil = 0.15;% the radius of  coil
+acoilb = 0.6;
+N0b = 15;
 
-
-% R0 = N0 * 2*pi*acoil * R0;
-% L = 0.5 * mu1 * pi * (N0^2) * acoil;
-% f0 = 10000;
-
+acoili = 0.4;
+N0i = 30;
 
 
 %f0 = 10000;
